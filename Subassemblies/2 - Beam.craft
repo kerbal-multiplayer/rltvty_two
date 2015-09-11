@@ -1,0 +1,71 @@
+ship = 2 - Beam
+version = 1.0.4
+description = No description.
+type = None
+size = 1.507112,0.6592169,0.558022
+PART
+{
+	part = strutCube_4293236112
+	partName = Part
+	pos = 1.216361,14.36128,0.5685681
+	attPos = 0,0,0
+	attPos0 = -0.1309349,-0.05924153,0.2267861
+	rot = 0.6123725,0.3535535,0.6123725,0.3535533
+	attRot = 0,0,0,1
+	attRot0 = -0.6830128,0.1830127,-0.1830128,-0.6830127
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293234974
+	srfN = srfAttach,strutCube_4293269444
+	attN = bottom,strutCube_4293234974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293234974
+	partName = Part
+	pos = 1.216361,14.49001,0.3455932
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.6123725,0.3535535,0.6123725,0.3535533
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = top,strutCube_4293236112
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}

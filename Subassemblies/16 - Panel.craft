@@ -1,0 +1,3572 @@
+ship = 16 - Panel
+version = 1.0.4
+description = No description.
+type = None
+size = 5.219096,0.3702793,5.219101
+PART
+{
+	part = structuralMiniNode_4294486276
+	partName = Part
+	pos = -0.11345,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = -0.11345,14.81179,0.5808513
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293279294
+	link = strutCube_4293270164
+	link = strutCube_4293269532
+	link = strutCube_4293268684
+	attN = right,strutCube_4293269532
+	attN = left,strutCube_4293279294
+	attN = back,strutCube_4293268684
+	attN = front,strutCube_4293270164
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293279294
+	partName = Part
+	pos = -0.4245102,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = -0.3110602,0,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293278706
+	attN = top,structuralMiniNode_4294486276
+	attN = bottom,strutCube_4293278706
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293278706
+	partName = Part
+	pos = -0.6819793,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293278114
+	attN = top,strutCube_4293279294
+	attN = bottom,strutCube_4293278114
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293278114
+	partName = Part
+	pos = -0.9394486,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293277492
+	attN = top,strutCube_4293278706
+	attN = bottom,strutCube_4293277492
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293277492
+	partName = Part
+	pos = -1.196918,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293276974
+	attN = top,strutCube_4293278114
+	attN = bottom,strutCube_4293276974
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293276974
+	partName = Part
+	pos = -1.454387,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293276438
+	attN = top,strutCube_4293277492
+	attN = bottom,strutCube_4293276438
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293276438
+	partName = Part
+	pos = -1.711856,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293275784
+	attN = top,strutCube_4293276974
+	attN = bottom,strutCube_4293275784
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293275784
+	partName = Part
+	pos = -1.969325,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293274928
+	attN = top,strutCube_4293276438
+	attN = bottom,strutCube_4293274928
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293274928
+	partName = Part
+	pos = -2.226795,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralMiniNode_4293261660
+	attN = top,strutCube_4293275784
+	attN = bottom,structuralMiniNode_4293261660
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralMiniNode_4293261660
+	partName = Part
+	pos = -2.537855,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 2.519303E-07,-0.3110607,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293252438
+	link = strutCube_4293250612
+	attN = back,strutCube_4293252438
+	attN = front,strutCube_4293250612
+	attN = top,strutCube_4293274928
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293252438
+	partName = Part
+	pos = -2.537856,14.81179,0.8919114
+	attPos = 0,0,0
+	attPos0 = 5.684342E-14,-4.768372E-07,0.3110601
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0.7071067,-0.7071067,0
+	attRot0 = -0.5,0.5,-0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293252416
+	attN = top,structuralMiniNode_4293261660
+	attN = bottom,strutCube_4293252416
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293252416
+	partName = Part
+	pos = -2.537856,14.81179,1.149381
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293252394
+	attN = top,strutCube_4293252438
+	attN = bottom,strutCube_4293252394
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293252394
+	partName = Part
+	pos = -2.537856,14.81179,1.406852
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293252372
+	attN = top,strutCube_4293252416
+	attN = bottom,strutCube_4293252372
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293252372
+	partName = Part
+	pos = -2.537856,14.81179,1.664321
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293252350
+	attN = top,strutCube_4293252394
+	attN = bottom,strutCube_4293252350
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293252350
+	partName = Part
+	pos = -2.537856,14.81179,1.921791
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293252328
+	attN = top,strutCube_4293252372
+	attN = bottom,strutCube_4293252328
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293252328
+	partName = Part
+	pos = -2.537856,14.81179,2.179261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293252306
+	attN = top,strutCube_4293252350
+	attN = bottom,strutCube_4293252306
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293252306
+	partName = Part
+	pos = -2.537856,14.81179,2.436731
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293252284
+	attN = top,strutCube_4293252328
+	attN = bottom,strutCube_4293252284
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293252284
+	partName = Part
+	pos = -2.537856,14.81179,2.694201
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralMiniNode_4293245508
+	attN = top,strutCube_4293252306
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralMiniNode_4293245508
+	partName = Part
+	pos = -2.537856,14.81179,3.005261
+	attPos = 0,0,0
+	attPos0 = 4.768372E-07,-0.31106,5.684342E-14
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,-0.7071068,0.7071068,0
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = right,strutCube_4293252284
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293250612
+	partName = Part
+	pos = -2.537856,14.81179,0.2697911
+	attPos = 0,0,0
+	attPos0 = 5.684342E-14,-4.768372E-07,-0.3110602
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0.7071067,0,0,0.7071067
+	attRot0 = 0.5,0.5,0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293250590
+	attN = top,structuralMiniNode_4293261660
+	attN = bottom,strutCube_4293250590
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293250590
+	partName = Part
+	pos = -2.537856,14.81179,0.012321
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293250568
+	attN = top,strutCube_4293250612
+	attN = bottom,strutCube_4293250568
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293250568
+	partName = Part
+	pos = -2.537856,14.81179,-0.2451491
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293250546
+	attN = top,strutCube_4293250590
+	attN = bottom,strutCube_4293250546
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293250546
+	partName = Part
+	pos = -2.537856,14.81179,-0.5026183
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293250524
+	attN = top,strutCube_4293250568
+	attN = bottom,strutCube_4293250524
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293250524
+	partName = Part
+	pos = -2.537856,14.81179,-0.7600884
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293250502
+	attN = top,strutCube_4293250546
+	attN = bottom,strutCube_4293250502
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293250502
+	partName = Part
+	pos = -2.537856,14.81179,-1.017559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293250480
+	attN = top,strutCube_4293250524
+	attN = bottom,strutCube_4293250480
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293250480
+	partName = Part
+	pos = -2.537856,14.81179,-1.275029
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293250458
+	attN = top,strutCube_4293250502
+	attN = bottom,strutCube_4293250458
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293250458
+	partName = Part
+	pos = -2.537856,14.81179,-1.532499
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralMiniNode_4293246196
+	attN = top,strutCube_4293250480
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralMiniNode_4293246196
+	partName = Part
+	pos = -2.537856,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = -4.768372E-07,-0.31106,5.684342E-14
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = -0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = right,strutCube_4293250458
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293270164
+	partName = Part
+	pos = -0.11345,14.81179,0.2697911
+	attPos = 0,0,0
+	attPos0 = 0,0,-0.3110602
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0.5,-0.5,-0.5,0.5
+	attRot0 = 0.5,-0.5,-0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293270142
+	attN = top,structuralMiniNode_4294486276
+	attN = bottom,strutCube_4293270142
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293270142
+	partName = Part
+	pos = -0.11345,14.81179,0.01232094
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293270120
+	attN = top,strutCube_4293270164
+	attN = bottom,strutCube_4293270120
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293270120
+	partName = Part
+	pos = -0.11345,14.81179,-0.2451492
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293270098
+	attN = top,strutCube_4293270142
+	attN = bottom,strutCube_4293270098
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293270098
+	partName = Part
+	pos = -0.11345,14.81179,-0.5026184
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293270076
+	attN = top,strutCube_4293270120
+	attN = bottom,strutCube_4293270076
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293270076
+	partName = Part
+	pos = -0.11345,14.81179,-0.7600885
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293270054
+	attN = top,strutCube_4293270098
+	attN = bottom,strutCube_4293270054
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293270054
+	partName = Part
+	pos = -0.11345,14.81179,-1.017559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293270032
+	attN = top,strutCube_4293270076
+	attN = bottom,strutCube_4293270032
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293270032
+	partName = Part
+	pos = -0.11345,14.81179,-1.275029
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293270010
+	attN = top,strutCube_4293270054
+	attN = bottom,strutCube_4293270010
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293270010
+	partName = Part
+	pos = -0.11345,14.81179,-1.532499
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,-0.5,-0.5,0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralMiniNode_4293262286
+	attN = top,strutCube_4293270032
+	attN = bottom,structuralMiniNode_4293262286
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralMiniNode_4293262286
+	partName = Part
+	pos = -0.11345,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.3110602,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = -0.5,0.5,0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293251720
+	link = strutCube_4293249772
+	attN = right,strutCube_4293249772
+	attN = left,strutCube_4293251720
+	attN = back,strutCube_4293270010
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293251720
+	partName = Part
+	pos = -0.4245102,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = -0.3110602,0,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293251698
+	attN = top,structuralMiniNode_4293262286
+	attN = bottom,strutCube_4293251698
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293251698
+	partName = Part
+	pos = -0.6819803,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293251676
+	attN = top,strutCube_4293251720
+	attN = bottom,strutCube_4293251676
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293251676
+	partName = Part
+	pos = -0.9394505,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293251654
+	attN = top,strutCube_4293251698
+	attN = bottom,strutCube_4293251654
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293251654
+	partName = Part
+	pos = -1.19692,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293251632
+	attN = top,strutCube_4293251676
+	attN = bottom,strutCube_4293251632
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293251632
+	partName = Part
+	pos = -1.45439,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293251610
+	attN = top,strutCube_4293251654
+	attN = bottom,strutCube_4293251610
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293251610
+	partName = Part
+	pos = -1.71186,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293251588
+	attN = top,strutCube_4293251632
+	attN = bottom,strutCube_4293251588
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293251588
+	partName = Part
+	pos = -1.96933,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293251566
+	attN = top,strutCube_4293251610
+	attN = bottom,strutCube_4293251566
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293251566
+	partName = Part
+	pos = -2.2268,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = top,strutCube_4293251588
+	attN = bottom,structuralMiniNode_4293246196
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293249772
+	partName = Part
+	pos = 0.1976102,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0.3110602,0,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,-0.7071067
+	attRot0 = 0,0,-0.7071068,-0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293249750
+	attN = top,structuralMiniNode_4293262286
+	attN = bottom,strutCube_4293249750
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293249750
+	partName = Part
+	pos = 0.4550803,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293249728
+	attN = top,strutCube_4293249772
+	attN = bottom,strutCube_4293249728
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293249728
+	partName = Part
+	pos = 0.7125504,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293249706
+	attN = top,strutCube_4293249750
+	attN = bottom,strutCube_4293249706
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293249706
+	partName = Part
+	pos = 0.9700197,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293249684
+	attN = top,strutCube_4293249728
+	attN = bottom,strutCube_4293249684
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293249684
+	partName = Part
+	pos = 1.22749,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293249662
+	attN = top,strutCube_4293249706
+	attN = bottom,strutCube_4293249662
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293249662
+	partName = Part
+	pos = 1.48496,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293249640
+	attN = top,strutCube_4293249684
+	attN = bottom,strutCube_4293249640
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293249640
+	partName = Part
+	pos = 1.74243,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293249618
+	attN = top,strutCube_4293249662
+	attN = bottom,strutCube_4293249618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293249618
+	partName = Part
+	pos = 1.9999,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralMiniNode_4293243558
+	attN = top,strutCube_4293249640
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralMiniNode_4293243558
+	partName = Part
+	pos = 2.31096,14.81179,-1.843559
+	attPos = 0,0,0
+	attPos0 = -2.519309E-07,-0.3110602,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0.7071068,-0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = back,strutCube_4293249618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293269532
+	partName = Part
+	pos = 0.1976102,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0.3110602,0,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,-0.7071067
+	attRot0 = 0,0,-0.7071068,-0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293269510
+	attN = top,structuralMiniNode_4294486276
+	attN = bottom,strutCube_4293269510
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293269510
+	partName = Part
+	pos = 0.4550803,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293269488
+	attN = top,strutCube_4293269532
+	attN = bottom,strutCube_4293269488
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293269488
+	partName = Part
+	pos = 0.7125504,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293269466
+	attN = top,strutCube_4293269510
+	attN = bottom,strutCube_4293269466
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293269466
+	partName = Part
+	pos = 0.9700197,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293269444
+	attN = top,strutCube_4293269488
+	attN = bottom,strutCube_4293269444
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293269444
+	partName = Part
+	pos = 1.22749,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293269422
+	attN = top,strutCube_4293269466
+	attN = bottom,strutCube_4293269422
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293269422
+	partName = Part
+	pos = 1.48496,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293269400
+	attN = top,strutCube_4293269444
+	attN = bottom,strutCube_4293269400
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293269400
+	partName = Part
+	pos = 1.74243,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293269378
+	attN = top,strutCube_4293269422
+	attN = bottom,strutCube_4293269378
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293269378
+	partName = Part
+	pos = 1.9999,14.81179,0.5808513
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralMiniNode_4293262864
+	attN = top,strutCube_4293269400
+	attN = bottom,structuralMiniNode_4293262864
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralMiniNode_4293262864
+	partName = Part
+	pos = 2.31096,14.81179,0.5808512
+	attPos = 0,0,0
+	attPos0 = -2.519309E-07,-0.3110602,-2.980232E-08
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0.5,-0.5,-0.5,0.5
+	attRot0 = 0,0.7071068,0.7071068,0
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293259320
+	link = strutCube_4293254208
+	attN = back,strutCube_4293269378
+	attN = top,strutCube_4293254208
+	attN = bottom,strutCube_4293259320
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293259320
+	partName = Part
+	pos = 2.31096,14.81179,0.269791
+	attPos = 0,0,0
+	attPos0 = 0,-0.3110602,3.708126E-08
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0.5,-0.5,-0.5,0.5
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293259298
+	attN = top,structuralMiniNode_4293262864
+	attN = bottom,strutCube_4293259298
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293259298
+	partName = Part
+	pos = 2.31096,14.81179,0.01232094
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293259276
+	attN = top,strutCube_4293259320
+	attN = bottom,strutCube_4293259276
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293259276
+	partName = Part
+	pos = 2.31096,14.81179,-0.2451492
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293259254
+	attN = top,strutCube_4293259298
+	attN = bottom,strutCube_4293259254
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293259254
+	partName = Part
+	pos = 2.31096,14.81179,-0.5026184
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293259232
+	attN = top,strutCube_4293259276
+	attN = bottom,strutCube_4293259232
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293259232
+	partName = Part
+	pos = 2.31096,14.81179,-0.7600885
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293259210
+	attN = top,strutCube_4293259254
+	attN = bottom,strutCube_4293259210
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293259210
+	partName = Part
+	pos = 2.31096,14.81179,-1.017559
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293259188
+	attN = top,strutCube_4293259232
+	attN = bottom,strutCube_4293259188
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293259188
+	partName = Part
+	pos = 2.31096,14.81179,-1.275029
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293259166
+	attN = top,strutCube_4293259210
+	attN = bottom,strutCube_4293259166
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293259166
+	partName = Part
+	pos = 2.31096,14.81179,-1.532499
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = top,strutCube_4293259188
+	attN = bottom,structuralMiniNode_4293243558
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293254208
+	partName = Part
+	pos = 2.31096,14.81179,0.8919114
+	attPos = 0,0,0
+	attPos0 = 0,0.3110602,-3.708126E-08
+	rot = 0,0.7071069,-0.7071069,0
+	attRot = 0,0.7071067,-0.7071067,0
+	attRot0 = -0.7071068,0,-0.7071068,0
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293254186
+	attN = top,structuralMiniNode_4293262864
+	attN = bottom,strutCube_4293254186
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293254186
+	partName = Part
+	pos = 2.31096,14.81179,1.149382
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071069,-0.7071069,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293254164
+	attN = top,strutCube_4293254208
+	attN = bottom,strutCube_4293254164
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293254164
+	partName = Part
+	pos = 2.31096,14.81179,1.406852
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071069,-0.7071069,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293254142
+	attN = top,strutCube_4293254186
+	attN = bottom,strutCube_4293254142
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293254142
+	partName = Part
+	pos = 2.31096,14.81179,1.664321
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071069,-0.7071069,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293254120
+	attN = top,strutCube_4293254164
+	attN = bottom,strutCube_4293254120
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293254120
+	partName = Part
+	pos = 2.31096,14.81179,1.921791
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071069,-0.7071069,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293254098
+	attN = top,strutCube_4293254142
+	attN = bottom,strutCube_4293254098
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293254098
+	partName = Part
+	pos = 2.31096,14.81179,2.179261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071069,-0.7071069,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293254076
+	attN = top,strutCube_4293254120
+	attN = bottom,strutCube_4293254076
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293254076
+	partName = Part
+	pos = 2.31096,14.81179,2.436731
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071069,-0.7071069,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293254054
+	attN = top,strutCube_4293254098
+	attN = bottom,strutCube_4293254054
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293254054
+	partName = Part
+	pos = 2.31096,14.81179,2.694201
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0.7071069,-0.7071069,0
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralMiniNode_4293244540
+	attN = top,strutCube_4293254076
+	attN = bottom,structuralMiniNode_4293244540
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralMiniNode_4293244540
+	partName = Part
+	pos = 2.310961,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = -4.903497E-07,-0.3110609,8.687595E-14
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,-0.7071068,0.7071068,0
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = front,strutCube_4293254054
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293268684
+	partName = Part
+	pos = -0.11345,14.81179,0.8919114
+	attPos = 0,0,0
+	attPos0 = 0,0,0.3110601
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0.4999999,0.4999999,-0.4999999,-0.4999999
+	attRot0 = 0.5,0.5,-0.5,-0.5
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293268662
+	attN = top,structuralMiniNode_4294486276
+	attN = bottom,strutCube_4293268662
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293268662
+	partName = Part
+	pos = -0.11345,14.81179,1.149382
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293268640
+	attN = top,strutCube_4293268684
+	attN = bottom,strutCube_4293268640
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293268640
+	partName = Part
+	pos = -0.11345,14.81179,1.406852
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293268618
+	attN = top,strutCube_4293268662
+	attN = bottom,strutCube_4293268618
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293268618
+	partName = Part
+	pos = -0.11345,14.81179,1.664321
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293268596
+	attN = top,strutCube_4293268640
+	attN = bottom,strutCube_4293268596
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293268596
+	partName = Part
+	pos = -0.11345,14.81179,1.921791
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293268574
+	attN = top,strutCube_4293268618
+	attN = bottom,strutCube_4293268574
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293268574
+	partName = Part
+	pos = -0.11345,14.81179,2.179261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293268552
+	attN = top,strutCube_4293268596
+	attN = bottom,strutCube_4293268552
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293268552
+	partName = Part
+	pos = -0.11345,14.81179,2.436731
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293268530
+	attN = top,strutCube_4293268574
+	attN = bottom,strutCube_4293268530
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293268530
+	partName = Part
+	pos = -0.11345,14.81179,2.694201
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralMiniNode_4293261030
+	attN = top,strutCube_4293268552
+	attN = bottom,structuralMiniNode_4293261030
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralMiniNode_4293261030
+	partName = Part
+	pos = -0.11345,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.3110602,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 0,-0.7071068,0.7071068,0
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293255316
+	link = strutCube_4293253360
+	attN = front,strutCube_4293268530
+	attN = top,strutCube_4293255316
+	attN = bottom,strutCube_4293253360
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293255316
+	partName = Part
+	pos = 0.1976103,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,0.3110602,3.708126E-08
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,-0.7071067
+	attRot0 = 0,0,-1,0
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293255294
+	attN = top,structuralMiniNode_4293261030
+	attN = bottom,strutCube_4293255294
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293255294
+	partName = Part
+	pos = 0.4550804,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293255272
+	attN = top,strutCube_4293255316
+	attN = bottom,strutCube_4293255272
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293255272
+	partName = Part
+	pos = 0.7125505,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293255250
+	attN = top,strutCube_4293255294
+	attN = bottom,strutCube_4293255250
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293255250
+	partName = Part
+	pos = 0.9700197,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293255228
+	attN = top,strutCube_4293255272
+	attN = bottom,strutCube_4293255228
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293255228
+	partName = Part
+	pos = 1.22749,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293255206
+	attN = top,strutCube_4293255250
+	attN = bottom,strutCube_4293255206
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293255206
+	partName = Part
+	pos = 1.48496,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293255184
+	attN = top,strutCube_4293255228
+	attN = bottom,strutCube_4293255184
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293255184
+	partName = Part
+	pos = 1.74243,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293255162
+	attN = top,strutCube_4293255206
+	attN = bottom,strutCube_4293255162
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293255162
+	partName = Part
+	pos = 1.9999,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = top,strutCube_4293255184
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293253360
+	partName = Part
+	pos = -0.4245102,14.81179,3.005262
+	attPos = 0,0,0
+	attPos0 = 0,-0.3110602,-3.708126E-08
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293253338
+	attN = top,structuralMiniNode_4293261030
+	attN = bottom,strutCube_4293253338
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293253338
+	partName = Part
+	pos = -0.6819804,14.81179,3.005261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293253316
+	attN = top,strutCube_4293253360
+	attN = bottom,strutCube_4293253316
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293253316
+	partName = Part
+	pos = -0.9394505,14.81179,3.005261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293253294
+	attN = top,strutCube_4293253338
+	attN = bottom,strutCube_4293253294
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293253294
+	partName = Part
+	pos = -1.19692,14.81179,3.005261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293253272
+	attN = top,strutCube_4293253316
+	attN = bottom,strutCube_4293253272
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293253272
+	partName = Part
+	pos = -1.45439,14.81179,3.005261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293253250
+	attN = top,strutCube_4293253294
+	attN = bottom,strutCube_4293253250
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293253250
+	partName = Part
+	pos = -1.71186,14.81179,3.005261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293253228
+	attN = top,strutCube_4293253272
+	attN = bottom,strutCube_4293253228
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293253228
+	partName = Part
+	pos = -1.96933,14.81179,3.005261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = strutCube_4293253206
+	attN = top,strutCube_4293253250
+	attN = bottom,strutCube_4293253206
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutCube_4293253206
+	partName = Part
+	pos = -2.2268,14.81179,3.005261
+	attPos = 0,0,0
+	attPos0 = 0,-0.2574692,0
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = top,strutCube_4293253228
+	attN = bottom,structuralMiniNode_4293245508
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
