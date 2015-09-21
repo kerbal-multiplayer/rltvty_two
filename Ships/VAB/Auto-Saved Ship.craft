@@ -2,7 +2,7 @@ ship = Space Transport
 version = 1.0.4
 description = 
 type = VAB
-size = 7.947443,22.85536,7.947441
+size = 7.947443,30.35536,7.947441
 PART
 {
 	part = probeCoreOcto_4294679170
@@ -2611,7 +2611,7 @@ PART
 	pos = 0.7026923,42.8928,1.006139
 	attPos = 0,0,0
 	attPos0 = -0.5349179,0.7520466,-0.3088347
-	rot = 0.0002386397,0.2588182,0.0008907176,0.9659256
+	rot = 0.0002386398,0.2588183,0.0008907177,0.9659257
 	attRot = 0,0,0,1
 	attRot0 = -0.0002386614,-0.258819,0.0008906963,0.9659255
 	mir = 1,1,1
@@ -2761,7 +2761,7 @@ PART
 {
 	part = MK1Fuselage_4294279334
 	partName = Part
-	pos = 1.237613,42.14075,-0.729075
+	pos = 1.237613,42.14075,-0.7290754
 	attPos = 0,0,0
 	attPos0 = -0.7996531,-0.0387392,-4.768372E-07
 	rot = -1.490118E-08,0.8660251,2.580956E-08,0.5000005
@@ -2809,10 +2809,10 @@ PART
 {
 	part = fuelLine_4294274858
 	partName = CompoundPart
-	pos = 1.548955,42.67722,-0.1898138
+	pos = 1.548956,42.67722,-0.1898137
 	attPos = 0,0,0
 	attPos0 = -0.6226842,0.5364695,7.616939E-07
-	rot = 0.0009080851,0.8660249,0.0005243184,0.5000002
+	rot = 0.0009080849,0.8660249,0.0005243184,0.5000002
 	attRot = 0,0,0,1
 	attRot0 = 1.163833E-10,5.95734E-08,0.001048584,0.9999995
 	mir = 1,1,1
@@ -3211,7 +3211,7 @@ PART
 {
 	part = fuelLine_4294276156
 	partName = CompoundPart
-	pos = -0.8014858,42.73919,-1.160535
+	pos = -0.8014856,42.73919,-1.160535
 	attPos = 0,0,0
 	attPos0 = -0.5893865,0.5984392,-0.1579257
 	rot = 0.0009559775,0.9238794,-0.0003959468,-0.3826826
@@ -3415,7 +3415,7 @@ PART
 	pos = -1.390676,42.77116,0.1086569
 	attPos = 0,0,0
 	attPos0 = -0.5886456,0.6304083,-0.1577271
-	rot = 0.000629928,0.6087619,-0.0008208894,-0.7933525
+	rot = 0.0006299281,0.6087619,-0.0008208894,-0.7933525
 	attRot = 0,0,0,1
 	attRot0 = -0.0001350585,-0.1305262,0.001025871,0.9914443
 	mir = 1,1,1
@@ -3790,9 +3790,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = fuelTank3-2_4294253400
+	link = fuelTank3-2_4294327456
 	attN = top,stackDecoupler_4294267454
-	attN = bottom,fuelTank3-2_4294253400
+	attN = bottom,fuelTank3-2_4294327456
 	EVENTS
 	{
 	}
@@ -3825,7 +3825,7 @@ PART
 }
 PART
 {
-	part = fuelTank3-2_4294253400
+	part = fuelTank3-2_4294327456
 	partName = Part
 	pos = 0.002330907,31.50766,-0.01588526
 	attPos = 0,0,0
@@ -3844,11 +3844,65 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = fuelTank3-2_4294253400
+	attN = top,adapterSize2-Size1_4294263076
+	attN = bottom,fuelTank3-2_4294253400
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 2880
+		maxAmount = 2880
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 3520
+		maxAmount = 3520
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = fuelTank3-2_4294253400
+	partName = Part
+	pos = 0.002330907,24.00766,-0.01588526
+	attPos = 0,0,0
+	attPos0 = 0,-7.5,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 6
+	dstg = 6
+	sidx = -1
+	sqor = -1
+	sepI = 10
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
 	link = radialDecoupler1-2_4294225868
 	link = radialDecoupler1-2_4294225282
 	link = radialDecoupler1-2_4294225234
 	link = liquidEngine1-2_4294215588
-	attN = top,adapterSize2-Size1_4294263076
+	attN = top,fuelTank3-2_4294327456
 	attN = bottom,liquidEngine1-2_4294215588
 	EVENTS
 	{
@@ -3884,7 +3938,7 @@ PART
 {
 	part = radialDecoupler1-2_4294225868
 	partName = Part
-	pos = 1.185851,30.03473,0.3012379
+	pos = 1.185851,22.53473,0.3012379
 	attPos = 0,0,0
 	attPos0 = 1.18352,-1.472928,0.3171232
 	rot = -8.864224E-08,0.9914449,-1.166997E-08,0.1305262
@@ -3976,7 +4030,7 @@ PART
 {
 	part = fuelTank1-2_4294219160
 	partName = Part
-	pos = 2.551666,29.60576,0.6672066
+	pos = 2.551666,22.10576,0.6672066
 	attPos = 0,0,0
 	attPos0 = -1.413993,-0.4289706,1.192093E-07
 	rot = -8.864198E-08,0.9914449,-1.166994E-08,0.1305262
@@ -4034,7 +4088,7 @@ PART
 {
 	part = liquidEngine1-2_4294214514
 	partName = Part
-	pos = 2.551667,26.66546,0.6672069
+	pos = 2.551667,19.16546,0.6672069
 	attPos = 0,0,0
 	attPos0 = -2.384199E-07,-2.940308,5.960463E-08
 	rot = 1.776357E-15,2.117582E-22,0,1
@@ -4255,10 +4309,10 @@ PART
 {
 	part = rocketNoseCone_4294139690
 	partName = Part
-	pos = 2.551665,31.48076,0.6672066
+	pos = 2.551665,23.98076,0.6672066
 	attPos = 0,0,0
 	attPos0 = -4.768362E-07,1.875,-6.661338E-15
-	rot = -7.549517E-14,-0.8660254,3.552714E-15,-0.5000001
+	rot = -8.970602E-14,-0.8660254,0,-0.5000001
 	attRot = 0,0,0,1
 	attRot0 = -3.421456E-08,0.3826835,-8.260123E-08,-0.9238796
 	mir = 1,1,1
@@ -4288,9 +4342,69 @@ PART
 }
 PART
 {
+	part = strutConnector_4293899130
+	partName = CompoundPart
+	pos = 2.66334,26.01602,0.7788813
+	attPos = 0,0,0
+	attPos0 = -0.15255,2.035257,0.0408757
+	rot = 0.6830131,-0.6830125,-0.1830126,0.1830126
+	attRot = 0,0,0,1
+	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 11
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4293899512
+	sym = strutConnector_4293899064
+	srfN = srfAttach,rocketNoseCone_4294139690
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294253400
+		pos = -1.350408,0.9866586,1.198259
+		rot = 0,0.3535531,-0.6123725,0.707107
+		dir = -0.6563635,0.4795648,0.5824126
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
 	part = radialDecoupler1-2_4294225282
 	partName = Part
-	pos = -0.3147925,30.03473,-1.199405
+	pos = -0.3147925,22.53473,-1.199405
 	attPos = 0,0,0
 	attPos0 = -0.3171234,-1.472928,-1.18352
 	rot = -5.44276E-08,0.6087614,7.093144E-08,-0.7933533
@@ -4382,7 +4496,7 @@ PART
 {
 	part = fuelTank1-2_4294218532
 	partName = Part
-	pos = -0.6807612,29.60576,-2.565218
+	pos = -0.6807612,22.10576,-2.565218
 	attPos = 0,0,0
 	attPos0 = -1.413993,-0.4289706,1.192093E-07
 	rot = -5.442746E-08,0.6087614,7.093126E-08,-0.7933533
@@ -4440,7 +4554,7 @@ PART
 {
 	part = liquidEngine1-2_4294214054
 	partName = Part
-	pos = -0.6807612,26.66546,-2.565219
+	pos = -0.6807612,19.16546,-2.565219
 	attPos = 0,0,0
 	attPos0 = -2.384199E-07,-2.940308,-5.960467E-08
 	rot = -7.105427E-15,0.8660254,0,0.5
@@ -4661,10 +4775,10 @@ PART
 {
 	part = rocketNoseCone_4294139660
 	partName = Part
-	pos = -0.6807611,31.48076,-2.565218
+	pos = -0.6807611,23.98076,-2.565218
 	attPos = 0,0,0
 	attPos0 = 8.526513E-13,1.875,-5.960464E-08
-	rot = -2.4869E-14,-0.8660254,3.019807E-14,0.4999999
+	rot = -2.842171E-14,-0.8660254,3.907985E-14,0.4999999
 	attRot = 0,0,0,1
 	attRot0 = -3.421456E-08,0.3826835,-8.260123E-08,-0.9238795
 	mir = 1,1,1
@@ -4694,9 +4808,69 @@ PART
 }
 PART
 {
+	part = strutConnector_4293899064
+	partName = CompoundPart
+	pos = -0.6398854,26.01602,-2.717768
+	attPos = 0,0,0
+	attPos0 = -0.1525498,2.035257,0.04087556
+	rot = 0.1830128,-0.1830126,-0.683013,0.6830125
+	attRot = 0,0,0,1
+	attRot0 = -0.5000001,0.4999999,-0.5000001,0.4999999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 11
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4293899512
+	sym = strutConnector_4293899130
+	srfN = srfAttach,rocketNoseCone_4294139660
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294253400
+		pos = -1.350404,0.9866573,1.198256
+		rot = 0,0.3535524,-0.6123726,0.7071072
+		dir = -0.6563635,0.4795648,0.5824126
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
 	part = radialDecoupler1-2_4294225234
 	partName = Part
-	pos = -0.8640659,30.03473,0.8505116
+	pos = -0.8640659,22.53473,0.8505116
 	attPos = 0,0,0
 	attPos0 = -0.8663968,-1.472928,0.8663968
 	rot = 3.421463E-08,-0.3826835,8.260141E-08,-0.9238795
@@ -4788,7 +4962,7 @@ PART
 {
 	part = fuelTank1-2_4294218498
 	partName = Part
-	pos = -1.86391,29.60576,1.850356
+	pos = -1.86391,22.10576,1.850356
 	attPos = 0,0,0
 	attPos0 = -1.413993,-0.4289706,1.192093E-07
 	rot = 3.421455E-08,-0.3826835,8.260123E-08,-0.9238795
@@ -4846,10 +5020,10 @@ PART
 {
 	part = liquidEngine1-2_4294213904
 	partName = Part
-	pos = -1.863911,26.66546,1.850357
+	pos = -1.863911,19.16546,1.850357
 	attPos = 0,0,0
 	attPos0 = -1.279644E-12,-2.940308,-5.960464E-08
-	rot = 2.842171E-14,0.8660253,3.552714E-15,-0.5000001
+	rot = 2.842171E-14,0.8660253,0,-0.5000001
 	attRot = 0,0,0,1
 	attRot0 = 8.8642E-08,-0.9914449,1.166993E-08,0.1305262
 	mir = 1,1,1
@@ -5067,7 +5241,7 @@ PART
 {
 	part = rocketNoseCone_4294140806
 	partName = Part
-	pos = -1.86391,31.48076,1.850356
+	pos = -1.86391,23.98076,1.850356
 	attPos = 0,0,0
 	attPos0 = 7.527312E-13,1.875,5.960466E-08
 	rot = 0,0,0,1
@@ -5100,9 +5274,69 @@ PART
 }
 PART
 {
+	part = strutConnector_4293899512
+	partName = CompoundPart
+	pos = -2.01646,26.01602,1.891231
+	attPos = 0,0,0
+	attPos0 = -0.1525498,2.035257,0.04087554
+	rot = -0.5000001,0.4999999,-0.5000001,0.4999999
+	attRot = 0,0,0,1
+	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999999
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 8
+	dstg = 8
+	sidx = -1
+	sqor = -1
+	sepI = 11
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4293899130
+	sym = strutConnector_4293899064
+	srfN = srfAttach,rocketNoseCone_4294140806
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294253400
+		pos = -1.350403,0.9866573,1.198257
+		rot = 0,0.3535522,-0.6123732,0.7071068
+		dir = -0.6563635,0.4795648,0.5824126
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
 	part = liquidEngine1-2_4294215588
 	partName = Part
-	pos = 0.002330907,26.69235,-0.01588526
+	pos = 0.002330907,19.19235,-0.01588526
 	attPos = 0,0,0
 	attPos0 = 0,-4.815309,0
 	rot = 0,0,0,1
@@ -5315,185 +5549,5 @@ PART
 		isTweakable = False
 		hideFlow = True
 		flowMode = Both
-	}
-}
-PART
-{
-	part = strutConnector_4293899512
-	partName = CompoundPart
-	pos = -2.01646,33.51602,1.891231
-	attPos = 0,0,0
-	attPos0 = -0.1525498,2.035257,0.04087554
-	rot = -0.5000002,0.4999999,-0.5000002,0.4999999
-	attRot = 0,0,0,1
-	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999999
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 8
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 11
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293899130
-	sym = strutConnector_4293899064
-	srfN = srfAttach,rocketNoseCone_4294140806
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294253400
-		pos = -1.350404,0.9866576,1.198257
-		rot = 0,0.3535522,-0.612373,0.7071069
-		dir = -0.6563635,0.4795648,0.5824126
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4293899130
-	partName = CompoundPart
-	pos = 2.66334,33.51602,0.7788811
-	attPos = 0,0,0
-	attPos0 = -0.15255,2.035257,0.0408757
-	rot = 0.6830131,-0.6830126,-0.1830127,0.1830126
-	attRot = 0,0,0,1
-	attRot0 = -0.5000002,0.4999999,-0.5000002,0.4999999
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 8
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 11
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293899512
-	sym = strutConnector_4293899064
-	srfN = srfAttach,rocketNoseCone_4294139690
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294253400
-		pos = -1.350408,0.9866585,1.198259
-		rot = 0,0.3535532,-0.6123725,0.7071069
-		dir = -0.6563635,0.4795648,0.5824126
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4293899064
-	partName = CompoundPart
-	pos = -0.6398854,33.51602,-2.717768
-	attPos = 0,0,0
-	attPos0 = -0.1525498,2.035257,0.04087556
-	rot = 0.1830128,-0.1830127,-0.6830128,0.6830125
-	attRot = 0,0,0,1
-	attRot0 = -0.5000001,0.4999999,-0.5000001,0.4999999
-	mir = 1,1,1
-	symMethod = Radial
-	istg = 8
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	sepI = 11
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4293899512
-	sym = strutConnector_4293899130
-	srfN = srfAttach,rocketNoseCone_4294139660
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294253400
-		pos = -1.3504,0.9866572,1.198256
-		rot = 0,0.3535525,-0.6123728,0.7071071
-		dir = -0.6563635,0.4795648,0.5824126
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
 	}
 }
